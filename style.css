@@ -1,0 +1,512 @@
+/* Nav Bar*/
+
+.nav-bar{
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	top: 0;
+	background: CadetBlue;
+	position: sticky;
+	}
+
+.nav-bar > .element{
+	width: 24%;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	display: inline-block;
+	margin: 0;
+	font-family: 'Oleo Script', cursive;
+	text-decoration: none;
+}
+
+
+.nav-bar > .element:hover{
+  cursor: pointer;
+  background: #395e60;
+}
+
+
+/* General */
+
+.empty-box{
+	background-color: white;
+	color: white;
+	padding: 20px;
+}
+
+
+.exp-header{
+  color: white;
+  font-family: Blagovest;
+  font-size: 2em;
+  font-style: bold;
+  padding-left: 20px;
+  text-align: left; 
+}
+
+.exp-sub{
+  color: white;
+  font-family: Blagovest;
+  font-size: 1.5em;
+  font-style: bold;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.exp-words{
+  background-color: white;
+  color: DimGrey;
+  font-family: Tahoma;
+  padding-top: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.exp-image{
+  float: left;
+  display: fixed;
+  padding: 15px;
+  width: "378";
+  height: "504";
+}
+
+@media screen and (max-width: 800px) {
+  .exp-image{
+    float: none;
+    display: none;
+    padding: 0px;
+    overflow: hidden;
+  }
+}
+
+.o-header{
+  background-color: white;
+  color: #395e60;
+  font-family: 'Oleo Script', cursive;
+  font-size: 3em;
+  font-style: bold;
+  padding: 20px;
+  text-align: center; 
+}
+
+.dance-header{
+  background-color: white;
+  color: #395e60;
+  font-family: 'Oleo Script', cursive;
+  font-size: 3em;
+  font-style: bold;
+  padding: 5px;
+  padding-top: 15px;
+  text-align: center; 
+}
+
+.dance-text{
+  background-color: white;
+  color: DimGrey;
+  font-family: Tahoma;
+  font-size: 1.15em;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.ed-header{
+  background-color: white;
+  color: CadetBlue;
+  font-family: Blagovest;
+  font-size: 2em;
+  font-style: bold;
+  text-align: center; 
+}
+
+.ed-sub{
+  background-color: white;
+  color: DimGrey;
+  font-family: Blagovest;
+  font-size: 1.5em;
+  font-style: bold;
+  text-align: center;
+}
+
+/* About me section*/
+
+.about-image{
+  float: left;
+  display: fixed;
+  padding: 15px;
+}
+
+.about-text{
+  background-color: white;
+  color: DimGrey;
+  font-family: Tahoma;
+  font-size: 1.15em;
+  padding: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.abt-image{
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .about-image{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abt-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .about-text{
+    padding-left: 0px;
+    font-size: 0.85em;
+  }
+}
+
+/* Experience Expanding Section: copied from W3 Schools; */
+.collapsible {
+  background-color: #555;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #395e60;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+
+/* Code taken from W3 Schools*/
+/* Icons from fontawesome.com*/
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+	background: #5B2880;
+	color: white;
+}
+
+.fa-envelope-o {
+	background: #1ac6ff;
+	color: white;
+}
+
+.fa-file-text-o {
+	background: #009973;
+	color: white;
+}
+
+/* Code taken from INSERT NAME*/
+/* TABLE */ 
+
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-table100 {
+  width: 100%;
+  border: black;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px ;
+}
+
+.wrap-table100 {
+  width: 960px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: black;
+}
+
+.table {
+  width: 80%;
+  display: table;
+  margin: 0;
+  border: black;
+}
+
+@media screen and (max-width: 768px) {
+  .table {
+    display: block;
+  }
+}
+
+.row {
+  display: table-row;
+  background: #fff;
+}
+
+.row.header {
+  color: #ffffff;
+  background: #395e60;
+}
+
+.cell {
+  display: table-cell;
+}
+
+.row .cell {
+  font-family: Tahoma;
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+  text-align: center;
+}
+
+.row.header .cell {
+  font-family: Blagovest;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  text-align: center;
+}
+
+.row .cell:nth-child(1) {
+  width: 200px;
+}
+
+.row .cell:nth-child(2) {
+  width: 200px;
+}
+
+.row .cell:nth-child(3) {
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .row .cell {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.2;
+    font-weight: unset !important;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: center;
+  }
+
+  .row.header .cell {
+    font-family: Blagovest;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.table, .row {
+  width: 100% !important;
+}
+
+.row:hover {
+  background-color: CadetBlue;
+  color: #fff;
+  opacity: 70%;
+}
+
+/* Code from W3 Schools */
+/* Image gallery for projects */ 
+
+.gallery {
+  border: 1px solid #ccc;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Code from W3 Schools */
+/* Buttons for schedule */
+
+
+.dropbtn {
+  background-color: CadetBlue;
+  color: white;
+  font-family: Tahoma;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+}
+
+.dropdown {
+  text-align: center;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  font-family: Tahoma;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  font-family: Tahoma;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  min-width: 160px;
+  background-color: #395e60;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button {
+  background-color: CadetBlue;
+  border: none;
+  color: white;
+  font-family: Tahoma;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button > .text{
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-family: Tahoma;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #395e60;
+}
