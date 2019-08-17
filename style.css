@@ -34,7 +34,6 @@
 	padding: 20px;
 }
 
-
 .exp-header{
   color: white;
   font-family: Blagovest;
@@ -56,7 +55,7 @@
 .exp-words{
   background-color: white;
   color: DimGrey;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   padding-top: 35px;
   padding-right: 20px;
   padding-left: 20px;
@@ -105,10 +104,10 @@
 .dance-text{
   background-color: white;
   color: DimGrey;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.15em;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -141,16 +140,17 @@
 .about-text{
   background-color: white;
   color: DimGrey;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.15em;
   padding: 20px;
   padding-left: 50px;
-  text-align: center;
+  text-align: left;
 }
 
 .abt-image{
   display: none;
 }
+
 
 @media screen and (max-width: 800px) {
   .about-image{
@@ -167,7 +167,6 @@
   }
 
   .about-text{
-    padding-left: 0px;
     font-size: 0.85em;
   }
 }
@@ -303,7 +302,7 @@
 }
 
 .row .cell {
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   color: #666666;
   line-height: 1.2;
@@ -316,7 +315,7 @@
 }
 
 .row.header .cell {
-  font-family: Blagovest;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   color: #fff;
   line-height: 1.2;
@@ -340,7 +339,7 @@
 
 @media screen and (max-width: 768px) {
   .row .cell {
-    font-family: Tahoma;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
     color: #666666;
     line-height: 1.2;
@@ -353,7 +352,7 @@
   }
 
   .row.header .cell {
-    font-family: Blagovest;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     color: #fff;
     line-height: 1.2;
@@ -393,7 +392,7 @@
 .desc {
   padding: 15px;
   text-align: center;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 * {
@@ -432,7 +431,7 @@
   background-color: CadetBlue;
   border: none;
   color: white;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -443,7 +442,7 @@
   text-align: center;
   color: white;
   display: inline-block;
-  font-family: Tahoma;
+  font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -501,7 +500,7 @@
 }
 .video-gallery label {
   color: DimGrey;
-  font-family: Tahoma; 
+  font-family: 'Source Sans Pro', sans-serif; 
   font-size: 1.25em;
   font-weight: 400;
   grid-column-start: 2;
